@@ -1,0 +1,267 @@
+
+.book-service-button{
+    background-color: #466FC4 !important;
+    height:50px;
+    width:200px;
+    padding:0px !important;
+    margin-right: 40px;
+}
+.schedule_text{
+    font-size: 13px;
+    color:#00008B;
+    padding-left: 3px;
+    text-align: center;
+}  
+.number_text{
+    font: weight 300px;
+    color:#00008B;
+    text-align: center;
+}
+.contact{
+    border-radius: 3px;
+    border:#00008B solid 1px !important;
+    height:50px;
+    width:50%;
+}
+*{
+    font-family:  "Poppins", sans-serif;
+}
+.book-service{
+    background-color: #466FC4;
+    height:40px;
+    font-size: 10px;
+    color:white;
+    padding: 3px;
+    border:none;
+    width:50px;
+    border-radius: 4px;
+}
+.contact-info{
+    border-radius: 3px;
+    border:#00008B solid 1px !important;
+    height:40px;
+}
+.schedule-call{
+    font-size: 10px;
+    text-align: center;
+}
+.number{
+    font-size: 10px;
+    font-weight: bold;
+}
+.wrapper{
+    margin-right: 103px;
+}
+.navbar-toggler-icon{
+    width:20px !important;
+    padding: 0px !important;
+}
+.nav-link{
+    color:black !important;
+}
+.navbar-collapse{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.background_image{
+    background-image: url("https://img.freepik.com/free-photo/hvac-technician-working-capacitor-part-condensing-unit_155003-20894.jpg?size=678&ext=jpg&ga=GA1.1.1700460183.1708041600&semt=ais");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width:100%;
+    opacity: 0.70;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+}
+.air_conditioner_text{
+    /* font-weight: bold;
+    color:black; */
+    position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color:black; /* Text color */
+      font-weight: bold; /* Adjust font size as needed */
+}
+.row{
+    margin-top: 15px !important;
+    margin-bottom: 4px;
+}
+.heading_text{
+    font-size: 25px;
+}
+.card-body{
+    background-color: #C5D2F4;
+    
+}
+.read-more{
+    background-color:  #123EAE;
+    color:white;
+    border-radius: 20px;
+    margin:3px;
+    padding:8px;
+    border: none;
+    font-size: 13px;
+    width:100px;
+}
+.card-button{
+    background-color: #E9EFFF;
+    border: none;
+    border-radius: 20px;
+    margin:3px;
+    padding:8px;
+    font-size: 13px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  /* .heading {
+    text-align: right;
+    margin-right: auto; 
+  } */
+  .input-field {
+    margin-left: auto; 
+  }
+  .lead-installer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading {
+    margin-right: auto; 
+  }
+  .button {
+    margin-left: auto; 
+  }
+  .leading-card {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #C5D2F4 !important;
+    border:none !important;
+  }
+  .apply-now-button{
+     background-color: #123EAE;
+     color:white; 
+     border-radius: 5px;
+     border:none;
+     padding:7px;
+     font-size: 13px;
+  }
+  .lead-text{
+    color:#123EAE;
+    font-family:"Poppins", sans-serif ;
+  }
+  .footer-section{
+    background-color: #24262b;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.li{
+    color:white
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+/* .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+} */
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col .social-links a{
+	height: 40px;
+	width: 40px;
+	background-color:blue;
+	margin:5px;
+	text-align: center;
+	color: #ffffff;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.footer-time{
+    font-size: 10px;
+    margin-left: 4px;
+}
+.service-item{
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+.service-button{
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, #5EFCE8, #736EFE);
+    color:white;
+    border:none;
+    padding:7px;
+    width:52%;
+    margin-left: 2px;
+}
